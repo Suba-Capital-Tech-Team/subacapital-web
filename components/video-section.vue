@@ -20,8 +20,7 @@
               ></div>
               <div class="video__player">
                 <template>
-                  <lite-youtube videoid="38iML94oi_c"
-                  style="width: 100%; height: 100%; border-radius: 25px" />
+                  <lite-youtube videoid="38iML94oi_c" class="youtube-lite" />
                 </template>
               </div>
             </div>
@@ -101,12 +100,23 @@ export default {
   border-radius: 25px;
 }
 
+.youtube-lite {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
 @media only screen and (max-width: 768px) {
   .video-frame {
     display: none;
     margin: auto;
   }
   .video__player {
+    border-radius: 4px;
+  }
+  .youtube-lite {
+    width: 100%;
+    height: 100%;
     border-radius: 4px;
   }
 }
