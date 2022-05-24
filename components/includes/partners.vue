@@ -3,7 +3,7 @@
     <h5 class="partners text-center pt-4 pt-md-16 mt-md-14 pb-2 pb-md-8">
       Featured On
     </h5>
-    <div class="partners flex-wrap">
+    <div class="partners-container partners flex-wrap">
       <img src="/images/partners/leadway.png" alt="LEADWAY ASSURANCE" />
       <img src="/images/partners/fmn.png" alt="FMN" />
       <img src="/images/partners/usaid.png" alt="USAID TRADE HUB" />
@@ -18,14 +18,12 @@ export default {};
 </script>
 
 <style scoped>
-.partners {
+.partners-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 18px;
   margin: 50px 5px;
-  font-size: 36px;
-  font-weight: 700;
 }
 
 img {
