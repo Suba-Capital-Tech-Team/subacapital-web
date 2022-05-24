@@ -4,7 +4,7 @@
       <div class="hero__text">
         <p class="company__name">Connecting Farmers</p>
         <p class="page__title">Portfolio</p>
-        <p class="title-sub-text mx-auto">
+        <p class="title-sub-text mx-4">
           At SUBA Capital we offer a wide range of amazing savings and
           investment plans for agricultural produces with returns from 10% to
           20% depending on the plan you choose.

@@ -8,7 +8,7 @@
               <v-card
                 nuxt
                 class="pa-0"
-                rounded="xl"
+                :rounded="round[$vuetify.breakpoint.name]"
                 :hover="active ? 'elevation-4' : false"
                 @click="openBlog"
               >
@@ -43,6 +43,10 @@ export default {
   data() {
     return {
       model: null,
+      round: {
+        xs: "sm",
+        md: "xl",
+      },
       cards: [
         { src: "/images/gallery/pix2.jpg" },
         { src: "/images/gallery/pix3.jpg" },
