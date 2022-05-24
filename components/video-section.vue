@@ -104,6 +104,7 @@ export default {
 @media only screen and (max-width: 768px) {
   .video-frame {
     display: none;
+    margin: auto;
   }
   .video__player {
     border-radius: 4px;

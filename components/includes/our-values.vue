@@ -103,7 +103,6 @@ export default {};
   line-height: 22px;
   text-align: center;
   color: #908daa;
-  width: 18rem;
 }
 .v-application .elevation-6 {
   box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 2%), 0px 3px 4px 0px rgb(0 0 0 / 6%),
