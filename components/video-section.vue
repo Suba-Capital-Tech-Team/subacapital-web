@@ -13,7 +13,7 @@
       <v-container>
         <v-row class="d-flex justify-center align-center">
           <v-col cols="12" md="5" offset-md="1">
-            <div class="video-container py-16 px-8 px-md-0">
+            <div class="video-container py-16 px-4 px-md-0">
               <div
                 class="video__player video-frame"
                 style="background: #679436"
@@ -113,6 +113,7 @@ export default {
   }
   .video__player {
     border-radius: 4px;
+    position: static;
   }
   .youtube-lite {
     width: 100%;
