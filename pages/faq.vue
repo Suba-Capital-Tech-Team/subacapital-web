@@ -7,7 +7,7 @@
       </div>
     </div>
 
-        <v-row class="py-8 my-8 py-md-10" style="background: #f1f0eb">
+        <v-row  style="background: #f1f0eb">
           <v-col
             cols="12"
             sm="6"
