@@ -157,7 +157,6 @@ export default {
   font-size: 20px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.785);
-  width: 37rem;
 }
 .video__player {
   width: 100%;
