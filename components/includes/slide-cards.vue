@@ -1,8 +1,10 @@
 <template>
-  <v-card
+  <div style="height: 340px; width: 100%">
+    <v-card
     flat
     :rounded="$vuetify.breakpoint.mdAndUp"
     class="mx-2 rounded-sm"
+    height="100%"
     :width="cardWidth[$vuetify.breakpoint.name]"
   >
     <div class="card-message px-5 pt-14">{{ message }}</div>
@@ -16,6 +18,7 @@
       </div>
     </div>
   </v-card>
+  </div>
 </template>
 
 <script>
