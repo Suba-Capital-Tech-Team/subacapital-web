@@ -6,9 +6,8 @@
         <p class="page__title">FAQ</p>
       </div>
     </div>
-    <section id="faq-question" style="background: #f1f0eb">
-      <v-container>
-        <v-row class="py-8 my-8 py-md-10">
+
+        <v-row class="py-8 my-8 py-md-10" style="background: #f1f0eb">
           <v-col
             cols="12"
             sm="6"
@@ -19,8 +18,6 @@
             <faq-expansion :title="item.title" :answer="item.answer" />
           </v-col>
         </v-row>
-      </v-container>
-    </section>
   </div>
 </template>
 
